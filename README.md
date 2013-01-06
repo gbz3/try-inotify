@@ -18,22 +18,22 @@ inotify を使用しファイル, ディレクトリの変更を報告するコ�
 オプションの解説
 ----------------
 
-+ -f /path/to/filename
++ -f /path/to/filename  
     監視対象のファイルパスを指定します。
 
-+ -d /path/to/directory
++ -d /path/to/directory  
     監視対象のディレクトリパスを指定します。
 
-+ -r
++ -r  
     -d で指定したディレクトリ配下の全てのディレクトリを対象に含めます。
 
 関連情報
 --------
 
-1. [リンク1](http://www.ibm.com/developerworks/jp/linux/library/l-inotify/ "inotify で Linux ファイルシステムのイベントを監視する")
+1. [inotify で Linux ファイ ルシステムのイベントを監視する](http://www.ibm.com/developerworks/jp/linux/library/l-inotify/ "inotify で Linux ファイルシステムのイベントを監視する")
 
 ライセンス
 ----------
-Copyright &copy; 2013 gbz3
+Copyright &copy; 2013 gbz3  
 ...
 

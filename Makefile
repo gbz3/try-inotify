@@ -1,11 +1,15 @@
 SRCS = src/main.c src/opt.c src/inotify.c
 BINS = main
 
-all: $(BINS)
+all:
+	make $(BINS)
+
+debug:
+	make $(BINS) "CFLAGS=-DDEBUG"
 
 clean:
 	rm -f $(BINS)
 
 $(BINS): $(SRCS)
-	gcc -o $@ $^
+	gcc $(CFLAGS) -o $@ $^
 

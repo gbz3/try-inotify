@@ -1,5 +1,5 @@
 SRCS = src/main.c src/opt.c src/inotify.c
-BINS = main
+BINS = inot
 
 all:
 	make $(BINS)
